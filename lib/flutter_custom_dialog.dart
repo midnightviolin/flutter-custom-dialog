@@ -125,7 +125,7 @@ class YYDialog {
                 }
               },
               style: TextButton.styleFrom(
-                primary: color1 ?? Colors.black,
+                foregroundColor: color1 ?? Colors.black,
                 padding: buttonPadding1,
                 textStyle: TextStyle(
                   fontSize: fontSize1 ?? 18.0,
@@ -149,7 +149,7 @@ class YYDialog {
                 }
               },
               style: TextButton.styleFrom(
-                primary: color2 ?? Colors.black,
+                foregroundColor: color2 ?? Colors.black,
                 padding: buttonPadding2,
                 textStyle: TextStyle(
                 fontSize: fontSize2 ?? 14.0,
